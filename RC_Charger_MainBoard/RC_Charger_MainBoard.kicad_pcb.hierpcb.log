@@ -1,0 +1,85 @@
+Plugin v0.0.1 running on KiCad 7.0.9 and Python 3.9.16 (main, Oct 13 2023, 05:50:11) [MSC v.1936 64 bit (AMD64)] on win32.
+Imported C:\Users\shink\Projects\RC_Charger_MainBoard\ClassD.kicad_pcb, with 27 footprints, 26 tracks, and 0 drawings.
+Imported C:\Users\shink\Projects\RC_Charger_MainBoard\RC_Charger_MainBoard.kicad_pcb, with 46 footprints, 0 tracks, and 1 drawings.
+ (+ PCB C:\Users\shink\Projects\RC_Charger_MainBoard\RC_Charger_MainBoard.kicad_pcb)
+├─ Audio (+ PCB C:\Users\shink\Projects\RC_Charger_MainBoard\ClassD.kicad_pcb)
+PCB C:\Users\shink\Projects\RC_Charger_MainBoard\ClassD.kicad_pcb
+  /4f0dff69: C42
+  /0fe3c575: C49
+  /c9cd38a7: U14
+  /477395eb: C48
+  /a73a0786: J3
+  /0bdd9d16: C44
+  /7d91b593: C274
+  /79a948a5: C271
+  /5c77bd12: C272
+  /fa34854c: C54
+  /4d5313a7: L2
+  /1b078ae7: J4
+  /c93a79ee: L5
+  /029333a9: C53
+  /047e2114: C50
+  /5d59a3aa: C52
+  /ea0950eb: C47
+  /83763cc2: C273
+  /31c208d2: L4
+  /4f57b048: C51
+  /310a10c5: U13
+  /54606f1a: C46
+  /82ac9d93: C43
+  /67cfd12d: C270
+  /15e2ee22: L3
+  /7e3a905e: C275
+  /af22ffb4: C45
+PCB C:\Users\shink\Projects\RC_Charger_MainBoard\RC_Charger_MainBoard.kicad_pcb
+  /499f75fa/c9cd38a7: U14
+  /499f75fa/310a10c5: U13
+  /499f75fa/c93a79ee: L5
+  /499f75fa/31c208d2: L4
+  /499f75fa/15e2ee22: L3
+  /499f75fa/4d5313a7: L2
+  /499f75fa/1b078ae7: J4
+  /499f75fa/a73a0786: J3
+  /499f75fa/7e3a905e: C275
+  /499f75fa/7d91b593: C274
+  /499f75fa/83763cc2: C273
+  /499f75fa/5c77bd12: C272
+  /499f75fa/79a948a5: C271
+  /499f75fa/67cfd12d: C270
+  /499f75fa/fa34854c: C54
+  /499f75fa/029333a9: C53
+  /499f75fa/5d59a3aa: C52
+  /499f75fa/4f57b048: C51
+  /499f75fa/047e2114: C50
+  /499f75fa/0fe3c575: C49
+  /499f75fa/477395eb: C48
+  /499f75fa/ea0950eb: C47
+  /499f75fa/54606f1a: C46
+  /499f75fa/af22ffb4: C45
+  /499f75fa/0bdd9d16: C44
+  /499f75fa/82ac9d93: C43
+  /499f75fa/4f0dff69: C42
+  /9f87e395: C6
+  /987d4d9b: H3
+  /fc1c4894: U3
+  /69dbc59c: C4
+  /1881bd2b: C2
+  /9f7e3d7c: H2
+  /89c91843: J1
+  /a98bcad7: C5
+  /f7852932: U5
+  /06838dae: C3
+  /12f68d83: R2
+  /d36d7a62: H4
+  /1f9ed1d8: C1
+  /bf667ef2: R1
+  /1899234e: U2
+  /ce70333c: H1
+  /0cf174a3: U4
+  /f03783bc: J2
+  /286ef30f: U1
+Selected for 0 : C:\Users\shink\Projects\RC_Charger_MainBoard\ClassD.kicad_pcb
+Anchors  (U14): ['C270', 'C271', 'C272', 'C273', 'C274', 'C275', 'C42', 'C43', 'C44', 'C45', 'C46', 'C47', 'C48', 'C49', 'C50', 'C51', 'C52', 'C53', 'C54', 'J3', 'J4', 'L2', 'L3', 'L4', 'L5', 'U13', 'U14']
+Selected for 0 : C:\Users\shink\Projects\RC_Charger_MainBoard\ClassD.kicad_pcb
+Anchor 25 for C:\Users\shink\Projects\RC_Charger_MainBoard\ClassD.kicad_pcb
+Saved.

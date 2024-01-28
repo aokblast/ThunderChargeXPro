@@ -1,0 +1,18 @@
+{
+  "subpcb": {
+    "ClassD.kicad_pcb": {
+      "anchor": "U13"
+    },
+    "RC_Charger_MainBoard.kicad_pcb": {
+      "anchor": "U1"
+    }
+  },
+  "sheet": {
+    "": {
+      "checked": false
+    },
+    "/499f75fa-820e-4e8d-8905-113f6f0cf933": {
+      "checked": true
+    }
+  }
+}

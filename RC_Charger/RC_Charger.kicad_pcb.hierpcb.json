@@ -1,0 +1,84 @@
+{
+  "subpcb": {
+    "ClassD.kicad_pcb": {
+      "anchor": "U13"
+    },
+    "RC_Charger.kicad_pcb": {
+      "anchor": "U13"
+    }
+  },
+  "sheet": {
+    "": {
+      "checked": false
+    },
+    "/04d63f39-297a-4c76-8d37-a6d8e6a159b8": {
+      "checked": false
+    },
+    "/04d63f39-297a-4c76-8d37-a6d8e6a159b8/7900c120-f3bf-4213-b618-024d941a89c9": {
+      "checked": false
+    },
+    "/04d63f39-297a-4c76-8d37-a6d8e6a159b8/83efb510-b002-414a-80e4-daa9dd792020": {
+      "checked": false
+    },
+    "/1ee38852-1559-48b6-8a70-6102d2608532": {
+      "checked": false
+    },
+    "/1ee38852-1559-48b6-8a70-6102d2608532/2996aedb-1a2d-440a-a10b-ea99907b5cdc": {
+      "checked": false
+    },
+    "/1ee38852-1559-48b6-8a70-6102d2608532/5caa8701-27c1-47fa-a388-5913c59e9941": {
+      "checked": false
+    },
+    "/1ee38852-1559-48b6-8a70-6102d2608532/eb994be7-42e5-4513-ab7e-8132179ec936": {
+      "checked": false
+    },
+    "/44385ac6-2dac-4298-a0ef-bab3c9dededd": {
+      "checked": false
+    },
+    "/44385ac6-2dac-4298-a0ef-bab3c9dededd/2996aedb-1a2d-440a-a10b-ea99907b5cdc": {
+      "checked": false
+    },
+    "/44385ac6-2dac-4298-a0ef-bab3c9dededd/5caa8701-27c1-47fa-a388-5913c59e9941": {
+      "checked": false
+    },
+    "/44385ac6-2dac-4298-a0ef-bab3c9dededd/eb994be7-42e5-4513-ab7e-8132179ec936": {
+      "checked": false
+    },
+    "/4a26135b-ec95-42d2-a23c-b3006b53b935": {
+      "checked": false
+    },
+    "/4a26135b-ec95-42d2-a23c-b3006b53b935/7900c120-f3bf-4213-b618-024d941a89c9": {
+      "checked": false
+    },
+    "/4a26135b-ec95-42d2-a23c-b3006b53b935/83efb510-b002-414a-80e4-daa9dd792020": {
+      "checked": false
+    },
+    "/53b147f5-33bc-4da8-ba88-64e8a60c7653": {
+      "checked": false
+    },
+    "/53b147f5-33bc-4da8-ba88-64e8a60c7653/2996aedb-1a2d-440a-a10b-ea99907b5cdc": {
+      "checked": false
+    },
+    "/53b147f5-33bc-4da8-ba88-64e8a60c7653/5caa8701-27c1-47fa-a388-5913c59e9941": {
+      "checked": false
+    },
+    "/53b147f5-33bc-4da8-ba88-64e8a60c7653/eb994be7-42e5-4513-ab7e-8132179ec936": {
+      "checked": false
+    },
+    "/abac92d4-4db0-4e52-b345-db465b34d49e": {
+      "checked": false
+    },
+    "/abac92d4-4db0-4e52-b345-db465b34d49e/2996aedb-1a2d-440a-a10b-ea99907b5cdc": {
+      "checked": false
+    },
+    "/abac92d4-4db0-4e52-b345-db465b34d49e/5caa8701-27c1-47fa-a388-5913c59e9941": {
+      "checked": false
+    },
+    "/abac92d4-4db0-4e52-b345-db465b34d49e/eb994be7-42e5-4513-ab7e-8132179ec936": {
+      "checked": false
+    },
+    "/fcb554a4-2423-4c3c-864f-0e9f35c02a4d": {
+      "checked": true
+    }
+  }
+}

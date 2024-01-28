@@ -1,0 +1,25 @@
+01-27 15:40:46 com_github_MitjaNemec_SaveRestoreLayout.action_save_restore_layout 172:Plugin executed on: 'win32'
+01-27 15:40:46 com_github_MitjaNemec_SaveRestoreLayout.action_save_restore_layout 173:Plugin executed with python version: '3.9.16 (main, Oct 13 2023, 05:50:11) [MSC v.1936 64 bit (AMD64)]'
+01-27 15:40:46 com_github_MitjaNemec_SaveRestoreLayout.action_save_restore_layout 174:KiCad build version: 7.0.9
+01-27 15:40:46 com_github_MitjaNemec_SaveRestoreLayout.action_save_restore_layout 175:Plugin version: 2.0.8
+
+01-27 15:40:46 com_github_MitjaNemec_SaveRestoreLayout.action_save_restore_layout 176:Frame repr: <wx._core.Frame object at 0x0000016FBEB74D30>
+01-27 15:40:46 com_github_MitjaNemec_SaveRestoreLayout.action_save_restore_layout 194:Anchor footprint reference is 'U13'
+01-27 15:40:47 com_github_MitjaNemec_SaveRestoreLayout.action_save_restore_layout 274:Restore layout chosen
+01-27 15:40:48 com_github_MitjaNemec_SaveRestoreLayout.action_save_restore_layout 75:Initialization start
+01-27 15:40:49 com_github_MitjaNemec_SaveRestoreLayout.action_save_restore_layout 77:Initialization done Group name:
+01-27 15:40:49 com_github_MitjaNemec_SaveRestoreLayout.save_restore_layout 675:Getting board info
+01-27 15:40:49 com_github_MitjaNemec_SaveRestoreLayout.save_restore_layout 678:Get project schematics and layout data
+01-27 15:40:49 com_github_MitjaNemec_SaveRestoreLayout.save_restore_layout 132:getting a list of all footprints on board
+01-27 15:40:49 com_github_MitjaNemec_SaveRestoreLayout.save_restore_layout 684:Loading saved design
+01-27 15:40:49 com_github_MitjaNemec_SaveRestoreLayout.save_restore_layout 706:Source level is:['ClassD.kicad_sch']
+01-27 15:40:49 com_github_MitjaNemec_SaveRestoreLayout.save_restore_layout 711:Destination footprint is:'U13'
+01-27 15:40:49 com_github_MitjaNemec_SaveRestoreLayout.save_restore_layout 712:Destination levels available are:[]
+01-27 15:40:56 com_github_MitjaNemec_SaveRestoreLayout.action_save_restore_layout 319:Error when restoring layout
+Traceback (most recent call last):
+  File "C:\Users\shink\Documents\KiCad\7.0\3rdparty\plugins\com_github_MitjaNemec_SaveRestoreLayout\action_save_restore_layout.py", line 312, in Run
+    restore_layout.restore_layout(layout_file)
+  File "C:\Users\shink\Documents\KiCad\7.0\3rdparty\plugins\com_github_MitjaNemec_SaveRestoreLayout\save_restore_layout.py", line 716, in restore_layout
+    raise LookupError("Destination hierarchy: " + repr(self.dst_anchor_fp.filename) + "\n"
+LookupError: Destination hierarchy: []
+does not match source level: 'ClassD.kicad_sch'
