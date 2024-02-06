@@ -1,70 +1,64 @@
-01-27 22:13:59 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 392:Plugin executed on: 'win32'
-01-27 22:13:59 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 393:Plugin executed with python version: '3.9.16 (main, Oct 13 2023, 05:50:11) [MSC v.1936 64 bit (AMD64)]'
-01-27 22:13:59 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 394:KiCad build version: 7.0.9
-01-27 22:13:59 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 395:Plugin version: 2.1.3
-01-27 22:13:59 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 396:Frame repr: <wx._core.Frame object at 0x000002B4BE672CA0>
-01-27 22:13:59 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 420:Preparing replicator with D2 as a reference
-01-27 22:13:59 com_github_MitjaNemec_ReplicateLayout.replicate_layout 117:getting a list of all footprints on board
-01-27 22:13:59 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 468:source anchor footprint is 'D2'
+02-06 20:20:28 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 392:Plugin executed on: 'win32'
+02-06 20:20:28 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 393:Plugin executed with python version: '3.9.16 (main, Oct 13 2023, 05:50:11) [MSC v.1936 64 bit (AMD64)]'
+02-06 20:20:28 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 394:KiCad build version: 7.0.9
+02-06 20:20:28 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 395:Plugin version: 2.1.3
+02-06 20:20:28 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 396:Frame repr: <wx._core.Frame object at 0x0000018D19F13D30>
+02-06 20:20:28 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 420:Preparing replicator with L6 as a reference
+02-06 20:20:28 com_github_MitjaNemec_ReplicateLayout.replicate_layout 117:getting a list of all footprints on board
+02-06 20:20:28 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 468:source anchor footprint is 'L6'
 Located on: ['5V Buck']
 With filenames: ['Buck.kicad_sch']
 With sheet_id:['5V Buck']
-01-27 22:13:59 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 475:Corresponding footprints are 
-[('D3', ['3V3 Buck']), ('D2', ['5V Buck'])]
-01-27 22:13:59 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 487:Showing dialog
-01-27 22:13:59 com_github_MitjaNemec_ReplicateLayout.replicate_layout 424:constructing a list of sheets suitable for replication on level:'5V Buck', file:'Buck.kicad_sch'
-01-27 22:13:59 com_github_MitjaNemec_ReplicateLayout.replicate_layout 461:suitable sheets are:[['3V3 Buck']]
-01-27 22:13:59 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1464:Level selected: ['5V Buck']
-01-27 22:13:59 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1299:Filtering list of tracks
-01-27 22:13:59 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 493:Toolbar position: wx.Point(-221, 117)
-01-27 22:13:59 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 498:Dialog position: wx.Point(-660, 117)
-01-27 22:14:03 com_github_MitjaNemec_ReplicateLayout.replicate_layout 424:constructing a list of sheets suitable for replication on level:'5V Buck', file:'Buck.kicad_sch'
-01-27 22:14:03 com_github_MitjaNemec_ReplicateLayout.replicate_layout 461:suitable sheets are:[['3V3 Buck']]
-01-27 22:14:03 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 240:Replicating layout
-01-27 22:14:03 com_github_MitjaNemec_ReplicateLayout.replicate_layout 240:Starting replication of sheets: [['3V3 Buck']]
+02-06 20:20:28 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 475:Corresponding footprints are 
+[('L7', ['3V3 Buck']), ('L6', ['5V Buck'])]
+02-06 20:20:28 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 487:Showing dialog
+02-06 20:20:28 com_github_MitjaNemec_ReplicateLayout.replicate_layout 424:constructing a list of sheets suitable for replication on level:'5V Buck', file:'Buck.kicad_sch'
+02-06 20:20:28 com_github_MitjaNemec_ReplicateLayout.replicate_layout 461:suitable sheets are:[['3V3 Buck']]
+02-06 20:20:28 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1464:Level selected: ['5V Buck']
+02-06 20:20:28 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1299:Filtering list of tracks
+02-06 20:20:28 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 493:Toolbar position: wx.Point(-1958, 514)
+02-06 20:20:28 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 498:Dialog position: wx.Point(-2397, 514)
+02-06 20:20:30 com_github_MitjaNemec_ReplicateLayout.replicate_layout 424:constructing a list of sheets suitable for replication on level:'5V Buck', file:'Buck.kicad_sch'
+02-06 20:20:30 com_github_MitjaNemec_ReplicateLayout.replicate_layout 461:suitable sheets are:[['3V3 Buck']]
+02-06 20:20:30 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 240:Replicating layout
+02-06 20:20:30 com_github_MitjaNemec_ReplicateLayout.replicate_layout 240:Starting replication of sheets: [['3V3 Buck']]
 on level: ['5V Buck']
 with tracks=True, zone=True, text=True, text=True, intersecting=False, remove=False, locked footprints=False, group_only=False
-01-27 22:14:03 root 332:updating GUI message: 'Preparing for replication'
-01-27 22:14:03 root 337:updating GUI with: 0
-01-27 22:14:03 com_github_MitjaNemec_ReplicateLayout.replicate_layout 310:Getting the list of source footprints
-01-27 22:14:03 com_github_MitjaNemec_ReplicateLayout.replicate_layout 320:Getting the list of all the remaining footprints
-01-27 22:14:03 com_github_MitjaNemec_ReplicateLayout.replicate_layout 327:Getting source tracks
-01-27 22:14:03 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1299:Filtering list of tracks
-01-27 22:14:03 com_github_MitjaNemec_ReplicateLayout.replicate_layout 331:Getting source zones
-01-27 22:14:03 com_github_MitjaNemec_ReplicateLayout.replicate_layout 335:Getting source text items
-01-27 22:14:03 com_github_MitjaNemec_ReplicateLayout.replicate_layout 339:Getting source drawing items
-01-27 22:14:03 root 332:updating GUI message: 'Replicating footprints'
-01-27 22:14:03 com_github_MitjaNemec_ReplicateLayout.replicate_layout 806:Replicating footprints
-01-27 22:14:03 com_github_MitjaNemec_ReplicateLayout.replicate_layout 813:Replicating footprints on sheet ['3V3 Buck']
-01-27 22:14:03 root 332:updating GUI message: 'Replicating tracks'
-01-27 22:14:03 com_github_MitjaNemec_ReplicateLayout.replicate_layout 977:Replicating tracks
-01-27 22:14:03 com_github_MitjaNemec_ReplicateLayout.replicate_layout 983:Replicating tracks on sheet ['3V3 Buck']
-01-27 22:14:03 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', '5V Buck', 'VOUT'] and dst net: ['+3V3'], with src_net_depth=3, dst_net_depth=1, src_fp_depth=1, dst_fp_depth=1, match level 0.43
-01-27 22:14:03 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', '5V Buck', 'VOUT'] and dst net: ['+3V3'], with src_net_depth=3, dst_net_depth=1, src_fp_depth=1, dst_fp_depth=1, match level 0.43
-01-27 22:14:03 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', '5V Buck', 'VOUT'] and dst net: ['+3V3'], with src_net_depth=3, dst_net_depth=1, src_fp_depth=1, dst_fp_depth=1, match level 0.43
-01-27 22:14:03 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', '5V Buck', 'VOUT'] and dst net: ['+3V3'], with src_net_depth=3, dst_net_depth=1, src_fp_depth=1, dst_fp_depth=1, match level 0.43
-01-27 22:14:03 com_github_MitjaNemec_ReplicateLayout.replicate_layout 766:Net pairs for sheet ['3V3 Buck'] :[('Net-(U5-BOOT)', 'Net-(U6-BOOT)'), ('/5V Buck/COMP', '/3V3 Buck/COMP'), ('VIN', 'VIN'), ('', ''), ('/5V Buck/FB', '/3V3 Buck/FB'), ('/5V Buck/VOUT', '+3V3'), ('Net-(D2-K)', 'Net-(D3-K)'), ('GND', 'GND'), ('Net-(U5-EN)', 'Net-(U6-EN)'), ('Net-(U5-RT{slash}CLK)', 'Net-(U6-RT{slash}CLK)')]
-01-27 22:14:03 root 332:updating GUI message: 'Replicating zones'
-01-27 22:14:03 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1047:Replicating zones
-01-27 22:14:03 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1054:Replicating zones on sheet ['3V3 Buck']
-01-27 22:14:03 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', '5V Buck', 'VOUT'] and dst net: ['+3V3'], with src_net_depth=3, dst_net_depth=1, src_fp_depth=1, dst_fp_depth=1, match level 0.43
-01-27 22:14:03 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', '5V Buck', 'VOUT'] and dst net: ['+3V3'], with src_net_depth=3, dst_net_depth=1, src_fp_depth=1, dst_fp_depth=1, match level 0.43
-01-27 22:14:03 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', '5V Buck', 'VOUT'] and dst net: ['+3V3'], with src_net_depth=3, dst_net_depth=1, src_fp_depth=1, dst_fp_depth=1, match level 0.43
-01-27 22:14:03 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', '5V Buck', 'VOUT'] and dst net: ['+3V3'], with src_net_depth=3, dst_net_depth=1, src_fp_depth=1, dst_fp_depth=1, match level 0.43
-01-27 22:14:03 com_github_MitjaNemec_ReplicateLayout.replicate_layout 766:Net pairs for sheet ['3V3 Buck'] :[('Net-(U5-BOOT)', 'Net-(U6-BOOT)'), ('/5V Buck/COMP', '/3V3 Buck/COMP'), ('VIN', 'VIN'), ('', ''), ('/5V Buck/FB', '/3V3 Buck/FB'), ('/5V Buck/VOUT', '+3V3'), ('Net-(D2-K)', 'Net-(D3-K)'), ('GND', 'GND'), ('Net-(U5-EN)', 'Net-(U6-EN)'), ('Net-(U5-RT{slash}CLK)', 'Net-(U6-RT{slash}CLK)')]
-01-27 22:14:03 root 337:updating GUI with: 33
-01-27 22:14:03 root 332:updating GUI message: 'Replicating text'
-01-27 22:14:03 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1136:Replicating text
-01-27 22:14:03 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1143:Replicating text on sheet ['3V3 Buck']
-01-27 22:14:03 root 332:updating GUI message: 'Replicating drawings'
-01-27 22:14:03 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1187:Replicating drawings
-01-27 22:14:03 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1193:Replicating drawings on sheet ['3V3 Buck']
-01-27 22:14:03 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 256:Replication complete
-01-27 22:14:03 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 259:Letting the user know there are some issues with replicated design
-01-27 22:14:03 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 263:Looks like the design has an exotic connectivity that the plugin might not handle properly
+02-06 20:20:30 root 332:updating GUI message: 'Preparing for replication'
+02-06 20:20:30 root 337:updating GUI with: 0
+02-06 20:20:30 com_github_MitjaNemec_ReplicateLayout.replicate_layout 310:Getting the list of source footprints
+02-06 20:20:30 com_github_MitjaNemec_ReplicateLayout.replicate_layout 320:Getting the list of all the remaining footprints
+02-06 20:20:30 com_github_MitjaNemec_ReplicateLayout.replicate_layout 327:Getting source tracks
+02-06 20:20:30 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1299:Filtering list of tracks
+02-06 20:20:30 com_github_MitjaNemec_ReplicateLayout.replicate_layout 331:Getting source zones
+02-06 20:20:30 com_github_MitjaNemec_ReplicateLayout.replicate_layout 335:Getting source text items
+02-06 20:20:30 com_github_MitjaNemec_ReplicateLayout.replicate_layout 339:Getting source drawing items
+02-06 20:20:30 root 332:updating GUI message: 'Replicating footprints'
+02-06 20:20:30 com_github_MitjaNemec_ReplicateLayout.replicate_layout 806:Replicating footprints
+02-06 20:20:30 com_github_MitjaNemec_ReplicateLayout.replicate_layout 813:Replicating footprints on sheet ['3V3 Buck']
+02-06 20:20:30 root 332:updating GUI message: 'Replicating tracks'
+02-06 20:20:30 com_github_MitjaNemec_ReplicateLayout.replicate_layout 977:Replicating tracks
+02-06 20:20:30 com_github_MitjaNemec_ReplicateLayout.replicate_layout 983:Replicating tracks on sheet ['3V3 Buck']
+02-06 20:20:30 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', '5V Buck', 'VOUT'] and dst net: ['S_PWR'], with src_net_depth=3, dst_net_depth=1, src_fp_depth=1, dst_fp_depth=1, match level 0.00
+02-06 20:20:30 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', '5V Buck', 'VOUT'] and dst net: ['S_PWR'], with src_net_depth=3, dst_net_depth=1, src_fp_depth=1, dst_fp_depth=1, match level 0.00
+02-06 20:20:30 com_github_MitjaNemec_ReplicateLayout.replicate_layout 766:Net pairs for sheet ['3V3 Buck'] :[('/5V Buck/FB', '/3V3 Buck/FB'), ('GND', 'GND'), ('Net-(U6-BOOT)', 'Net-(U5-BOOT)'), ('', ''), ('unconnected-(U6-NC-Pad2)', 'unconnected-(U5-NC-Pad2)'), ('VIN', 'VIN'), ('Net-(D3-K)', 'Net-(D2-K)'), ('unconnected-(U6-NC-Pad3)', 'unconnected-(U5-NC-Pad3)'), ('/5V Buck/VOUT', 'S_PWR')]
+02-06 20:20:30 root 332:updating GUI message: 'Replicating zones'
+02-06 20:20:30 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1047:Replicating zones
+02-06 20:20:30 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1054:Replicating zones on sheet ['3V3 Buck']
+02-06 20:20:30 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', '5V Buck', 'VOUT'] and dst net: ['S_PWR'], with src_net_depth=3, dst_net_depth=1, src_fp_depth=1, dst_fp_depth=1, match level 0.00
+02-06 20:20:30 com_github_MitjaNemec_ReplicateLayout.replicate_layout 750:Significant difference between src net: ['', '5V Buck', 'VOUT'] and dst net: ['S_PWR'], with src_net_depth=3, dst_net_depth=1, src_fp_depth=1, dst_fp_depth=1, match level 0.00
+02-06 20:20:30 com_github_MitjaNemec_ReplicateLayout.replicate_layout 766:Net pairs for sheet ['3V3 Buck'] :[('/5V Buck/FB', '/3V3 Buck/FB'), ('GND', 'GND'), ('Net-(U6-BOOT)', 'Net-(U5-BOOT)'), ('', ''), ('unconnected-(U6-NC-Pad2)', 'unconnected-(U5-NC-Pad2)'), ('VIN', 'VIN'), ('Net-(D3-K)', 'Net-(D2-K)'), ('unconnected-(U6-NC-Pad3)', 'unconnected-(U5-NC-Pad3)'), ('/5V Buck/VOUT', 'S_PWR')]
+02-06 20:20:30 root 337:updating GUI with: 80
+02-06 20:20:30 root 332:updating GUI message: 'Replicating text'
+02-06 20:20:30 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1136:Replicating text
+02-06 20:20:30 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1143:Replicating text on sheet ['3V3 Buck']
+02-06 20:20:30 root 332:updating GUI message: 'Replicating drawings'
+02-06 20:20:30 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1187:Replicating drawings
+02-06 20:20:30 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1193:Replicating drawings on sheet ['3V3 Buck']
+02-06 20:20:31 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 256:Replication complete
+02-06 20:20:31 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 259:Letting the user know there are some issues with replicated design
+02-06 20:20:31 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 263:Looks like the design has an exotic connectivity that the plugin might not handle properly
  Make sure that you check the connectivity around:
-Footprint C26, pad 1
 Footprint L7, pad 2
-Footprint C24, pad 1
-Footprint C25, pad 1
+Footprint C26, pad 1
 

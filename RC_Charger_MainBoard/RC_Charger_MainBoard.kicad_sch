@@ -82,57 +82,6 @@
         )
       )
     )
-    (symbol "Device:C" (pin_numbers hide) (pin_names (offset 0.254)) (in_bom yes) (on_board yes)
-      (property "Reference" "C" (at 0.635 2.54 0)
-        (effects (font (size 1.27 1.27)) (justify left))
-      )
-      (property "Value" "C" (at 0.635 -2.54 0)
-        (effects (font (size 1.27 1.27)) (justify left))
-      )
-      (property "Footprint" "" (at 0.9652 -3.81 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "~" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_keywords" "cap capacitor" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "Unpolarized capacitor" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_fp_filters" "C_*" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "C_0_1"
-        (polyline
-          (pts
-            (xy -2.032 -0.762)
-            (xy 2.032 -0.762)
-          )
-          (stroke (width 0.508) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -2.032 0.762)
-            (xy 2.032 0.762)
-          )
-          (stroke (width 0.508) (type default))
-          (fill (type none))
-        )
-      )
-      (symbol "C_1_1"
-        (pin passive line (at 0 3.81 270) (length 2.794)
-          (name "~" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 0 -3.81 90) (length 2.794)
-          (name "~" (effects (font (size 1.27 1.27))))
-          (number "2" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
     (symbol "Device:C_Polarized" (pin_numbers hide) (pin_names (offset 0.254)) (in_bom yes) (on_board yes)
       (property "Reference" "C" (at 0.635 2.54 0)
         (effects (font (size 1.27 1.27)) (justify left))
@@ -1264,9 +1213,6 @@
   (junction (at 163.83 99.06) (diameter 0) (color 0 0 0 0)
     (uuid 0cf9bfc5-70e5-46c0-a980-0900e564a8ef)
   )
-  (junction (at 124.46 72.39) (diameter 0) (color 0 0 0 0)
-    (uuid 1375fd09-23e6-40ed-89bf-94b0500ce0c2)
-  )
   (junction (at 279.4 151.13) (diameter 0) (color 0 0 0 0)
     (uuid 1bd99beb-a349-4242-83ab-1f477aa1238a)
   )
@@ -1284,9 +1230,6 @@
   )
   (junction (at 55.88 179.07) (diameter 0) (color 0 0 0 0)
     (uuid 8c309897-f64a-44f0-9c48-bb162b218620)
-  )
-  (junction (at 124.46 100.33) (diameter 0) (color 0 0 0 0)
-    (uuid aa09494e-aff1-4044-9045-ac0556a60b39)
   )
   (junction (at 163.83 106.68) (diameter 0) (color 0 0 0 0)
     (uuid ae0312a9-5c08-4a3b-a689-05bd7122810c)
@@ -1310,10 +1253,6 @@
     (stroke (width 0) (type default))
     (uuid 0cc666d7-ca8b-4522-bb9a-24a1996ffba8)
   )
-  (wire (pts (xy 111.76 100.33) (xy 124.46 100.33))
-    (stroke (width 0) (type default))
-    (uuid 11a1beb8-b2a5-4ea4-90de-497c6c9cda31)
-  )
   (wire (pts (xy 143.51 33.02) (xy 146.05 33.02))
     (stroke (width 0) (type default))
     (uuid 11cb90a9-3fa5-4bbc-ab8b-fc1e282ad033)
@@ -1321,10 +1260,6 @@
   (wire (pts (xy 53.34 179.07) (xy 55.88 179.07))
     (stroke (width 0) (type default))
     (uuid 1209b90d-1a6b-4d68-8bd1-ac5b90a297ca)
-  )
-  (wire (pts (xy 124.46 72.39) (xy 134.62 72.39))
-    (stroke (width 0) (type default))
-    (uuid 1b5e5224-f718-4f34-b647-23bcdcaaaaf0)
   )
   (wire (pts (xy 279.4 146.05) (xy 279.4 148.59))
     (stroke (width 0) (type default))
@@ -1445,14 +1380,6 @@
   (wire (pts (xy 143.51 25.4) (xy 148.59 25.4))
     (stroke (width 0) (type default))
     (uuid b80a2763-f4ed-468d-b7f2-c19670cfeacf)
-  )
-  (wire (pts (xy 124.46 100.33) (xy 134.62 100.33))
-    (stroke (width 0) (type default))
-    (uuid b8304176-add8-4b5c-84a5-d89b49a1f767)
-  )
-  (wire (pts (xy 111.76 72.39) (xy 124.46 72.39))
-    (stroke (width 0) (type default))
-    (uuid bb1a9f72-734d-4c76-854f-a3a4d6ba3c6d)
   )
   (wire (pts (xy 148.59 30.48) (xy 147.32 30.48))
     (stroke (width 0) (type default))
@@ -1981,42 +1908,6 @@
     )
   )
 
-  (symbol (lib_id "power:GND") (at 111.76 115.57 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 180c28b7-603c-4199-b920-79f73a47693d)
-    (property "Reference" "#PWR0356" (at 111.76 121.92 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "GND" (at 111.76 120.65 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 111.76 115.57 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 111.76 115.57 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid a7348fa2-17e3-4aab-90ac-4706bad2f8ae))
-    (instances
-      (project "RC_Charger"
-        (path "/0902a6fd-0525-43c9-a70c-b987859163f6"
-          (reference "#PWR0356") (unit 1)
-        )
-      )
-      (project "RC_Charger_MainBoard"
-        (path "/43d535c7-5e30-4b88-a9b0-e712620238f3"
-          (reference "#PWR042") (unit 1)
-        )
-        (path "/43d535c7-5e30-4b88-a9b0-e712620238f3/e0fb66d6-79fb-41d0-9dfe-03e1a9c214ac"
-          (reference "#PWR021") (unit 1)
-        )
-        (path "/43d535c7-5e30-4b88-a9b0-e712620238f3/e4c08729-18bf-404e-a940-fd38ac8e2c10"
-          (reference "#PWR039") (unit 1)
-        )
-      )
-    )
-  )
-
   (symbol (lib_id "power:GND") (at 163.83 114.3 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 18388ee5-b3b0-4c7f-b819-6fa5df990f8e)
@@ -2137,7 +2028,7 @@
     (property "Reference" "R6" (at 166.37 101.6 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Value" "36.5k" (at 166.37 104.14 0)
+    (property "Value" "10k" (at 166.37 104.14 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 165.608 102.87 90)
@@ -2626,38 +2517,6 @@
     )
   )
 
-  (symbol (lib_id "Device:R") (at 111.76 76.2 180) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 2981a7bf-0174-4481-8b5e-1d295d916c2c)
-    (property "Reference" "R7" (at 114.3 74.93 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-    )
-    (property "Value" "16.9k" (at 114.3 77.47 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-    )
-    (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 113.538 76.2 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 111.76 76.2 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "2" (uuid e069ae25-09fc-4a8f-8ab1-5f881bab6d76))
-    (pin "1" (uuid ac2040b2-c434-4365-be03-fdbea071fe7b))
-    (instances
-      (project "RC_Charger_MainBoard"
-        (path "/43d535c7-5e30-4b88-a9b0-e712620238f3/e0fb66d6-79fb-41d0-9dfe-03e1a9c214ac"
-          (reference "R7") (unit 1)
-        )
-        (path "/43d535c7-5e30-4b88-a9b0-e712620238f3/e4c08729-18bf-404e-a940-fd38ac8e2c10"
-          (reference "R13") (unit 1)
-        )
-        (path "/43d535c7-5e30-4b88-a9b0-e712620238f3"
-          (reference "R13") (unit 1)
-        )
-      )
-    )
-  )
-
   (symbol (lib_id "power:GND") (at 163.83 86.36 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 2b2268fe-a7dc-4580-becd-3b168365de43)
@@ -2694,42 +2553,6 @@
     )
   )
 
-  (symbol (lib_id "power:GND") (at 111.76 87.63 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 2bca58a7-12ca-463d-ba43-463543df960c)
-    (property "Reference" "#PWR0356" (at 111.76 93.98 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "GND" (at 111.76 92.71 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 111.76 87.63 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 111.76 87.63 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 202409e2-8409-4fc0-9860-ec470f14a889))
-    (instances
-      (project "RC_Charger"
-        (path "/0902a6fd-0525-43c9-a70c-b987859163f6"
-          (reference "#PWR0356") (unit 1)
-        )
-      )
-      (project "RC_Charger_MainBoard"
-        (path "/43d535c7-5e30-4b88-a9b0-e712620238f3"
-          (reference "#PWR038") (unit 1)
-        )
-        (path "/43d535c7-5e30-4b88-a9b0-e712620238f3/e0fb66d6-79fb-41d0-9dfe-03e1a9c214ac"
-          (reference "#PWR021") (unit 1)
-        )
-        (path "/43d535c7-5e30-4b88-a9b0-e712620238f3/e4c08729-18bf-404e-a940-fd38ac8e2c10"
-          (reference "#PWR039") (unit 1)
-        )
-      )
-    )
-  )
-
   (symbol (lib_id "Mechanical:MountingHole_Pad") (at 30.48 180.34 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 33f100ff-bdf5-4b9e-80b9-406270f005ad)
@@ -2750,42 +2573,6 @@
       (project "RC_Charger_MainBoard"
         (path "/43d535c7-5e30-4b88-a9b0-e712620238f3"
           (reference "H5") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:GND") (at 124.46 107.95 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 3861fc66-7b26-47dd-83f5-7f48c902b985)
-    (property "Reference" "#PWR0356" (at 124.46 114.3 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "GND" (at 124.46 113.03 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 124.46 107.95 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 124.46 107.95 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 3337e38c-9877-4117-80dd-c000561361b7))
-    (instances
-      (project "RC_Charger"
-        (path "/0902a6fd-0525-43c9-a70c-b987859163f6"
-          (reference "#PWR0356") (unit 1)
-        )
-      )
-      (project "RC_Charger_MainBoard"
-        (path "/43d535c7-5e30-4b88-a9b0-e712620238f3"
-          (reference "#PWR043") (unit 1)
-        )
-        (path "/43d535c7-5e30-4b88-a9b0-e712620238f3/e0fb66d6-79fb-41d0-9dfe-03e1a9c214ac"
-          (reference "#PWR021") (unit 1)
-        )
-        (path "/43d535c7-5e30-4b88-a9b0-e712620238f3/e4c08729-18bf-404e-a940-fd38ac8e2c10"
-          (reference "#PWR038") (unit 1)
         )
       )
     )
@@ -2846,81 +2633,6 @@
       (project "RC_Charger_MainBoard"
         (path "/43d535c7-5e30-4b88-a9b0-e712620238f3"
           (reference "#PWR01") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:C") (at 124.46 104.14 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 3db44be1-0542-4861-8364-0c3f37df815e)
-    (property "Reference" "C25" (at 128.27 102.87 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "10p" (at 128.27 105.41 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 125.4252 107.95 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 124.46 104.14 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid cfa00cf3-f8a2-4129-8d38-69dfe77085cc))
-    (pin "2" (uuid 49aad7ce-9feb-4e48-8c6b-d7ecfe11fe05))
-    (instances
-      (project "RC_Charger"
-        (path "/0902a6fd-0525-43c9-a70c-b987859163f6/44385ac6-2dac-4298-a0ef-bab3c9dededd/2996aedb-1a2d-440a-a10b-ea99907b5cdc"
-          (reference "C25") (unit 1)
-        )
-        (path "/0902a6fd-0525-43c9-a70c-b987859163f6/1ee38852-1559-48b6-8a70-6102d2608532/2996aedb-1a2d-440a-a10b-ea99907b5cdc"
-          (reference "C70") (unit 1)
-        )
-        (path "/0902a6fd-0525-43c9-a70c-b987859163f6/53b147f5-33bc-4da8-ba88-64e8a60c7653/2996aedb-1a2d-440a-a10b-ea99907b5cdc"
-          (reference "C120") (unit 1)
-        )
-        (path "/0902a6fd-0525-43c9-a70c-b987859163f6/abac92d4-4db0-4e52-b345-db465b34d49e/2996aedb-1a2d-440a-a10b-ea99907b5cdc"
-          (reference "C152") (unit 1)
-        )
-      )
-      (project "RC_Charger_MainBoard"
-        (path "/43d535c7-5e30-4b88-a9b0-e712620238f3/e4c08729-18bf-404e-a940-fd38ac8e2c10"
-          (reference "C15") (unit 1)
-        )
-        (path "/43d535c7-5e30-4b88-a9b0-e712620238f3"
-          (reference "C18") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:R") (at 111.76 104.14 180) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 458e6c05-3bfb-4a5f-984b-11485f810630)
-    (property "Reference" "R7" (at 114.3 102.87 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-    )
-    (property "Value" "12.1k" (at 114.3 105.41 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-    )
-    (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 113.538 104.14 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 111.76 104.14 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "2" (uuid a5277f61-025a-4098-ab97-284d5660be6e))
-    (pin "1" (uuid 5fa37a60-e0b8-4f11-aebc-82993545ed32))
-    (instances
-      (project "RC_Charger_MainBoard"
-        (path "/43d535c7-5e30-4b88-a9b0-e712620238f3/e0fb66d6-79fb-41d0-9dfe-03e1a9c214ac"
-          (reference "R7") (unit 1)
-        )
-        (path "/43d535c7-5e30-4b88-a9b0-e712620238f3/e4c08729-18bf-404e-a940-fd38ac8e2c10"
-          (reference "R13") (unit 1)
-        )
-        (path "/43d535c7-5e30-4b88-a9b0-e712620238f3"
-          (reference "R16") (unit 1)
         )
       )
     )
@@ -3041,42 +2753,6 @@
     )
   )
 
-  (symbol (lib_id "power:GND") (at 124.46 80.01 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 66a26bb9-bb0a-4dba-8f15-fa8644ff1baf)
-    (property "Reference" "#PWR0356" (at 124.46 86.36 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "GND" (at 124.46 85.09 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 124.46 80.01 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 124.46 80.01 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid afe751da-a655-4f31-9a42-87dc3cf1b6ca))
-    (instances
-      (project "RC_Charger"
-        (path "/0902a6fd-0525-43c9-a70c-b987859163f6"
-          (reference "#PWR0356") (unit 1)
-        )
-      )
-      (project "RC_Charger_MainBoard"
-        (path "/43d535c7-5e30-4b88-a9b0-e712620238f3"
-          (reference "#PWR039") (unit 1)
-        )
-        (path "/43d535c7-5e30-4b88-a9b0-e712620238f3/e0fb66d6-79fb-41d0-9dfe-03e1a9c214ac"
-          (reference "#PWR021") (unit 1)
-        )
-        (path "/43d535c7-5e30-4b88-a9b0-e712620238f3/e4c08729-18bf-404e-a940-fd38ac8e2c10"
-          (reference "#PWR038") (unit 1)
-        )
-      )
-    )
-  )
-
   (symbol (lib_id "power:GND") (at 38.1 182.88 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 6809ad5c-3506-4b43-8102-40e1a6e1e6e6)
@@ -3102,49 +2778,6 @@
       (project "RC_Charger_MainBoard"
         (path "/43d535c7-5e30-4b88-a9b0-e712620238f3"
           (reference "#PWR018") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:C") (at 111.76 83.82 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 68e0e5e0-141e-4bf7-b924-1c8a4f2427b8)
-    (property "Reference" "C25" (at 115.57 82.55 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "4.7u" (at 115.57 85.09 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 112.7252 87.63 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 111.76 83.82 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid f91288fb-23cb-4351-88ab-2821b4ed7b68))
-    (pin "2" (uuid 750ab810-a7fa-4d4b-ae96-a536aacc3c10))
-    (instances
-      (project "RC_Charger"
-        (path "/0902a6fd-0525-43c9-a70c-b987859163f6/44385ac6-2dac-4298-a0ef-bab3c9dededd/2996aedb-1a2d-440a-a10b-ea99907b5cdc"
-          (reference "C25") (unit 1)
-        )
-        (path "/0902a6fd-0525-43c9-a70c-b987859163f6/1ee38852-1559-48b6-8a70-6102d2608532/2996aedb-1a2d-440a-a10b-ea99907b5cdc"
-          (reference "C70") (unit 1)
-        )
-        (path "/0902a6fd-0525-43c9-a70c-b987859163f6/53b147f5-33bc-4da8-ba88-64e8a60c7653/2996aedb-1a2d-440a-a10b-ea99907b5cdc"
-          (reference "C120") (unit 1)
-        )
-        (path "/0902a6fd-0525-43c9-a70c-b987859163f6/abac92d4-4db0-4e52-b345-db465b34d49e/2996aedb-1a2d-440a-a10b-ea99907b5cdc"
-          (reference "C152") (unit 1)
-        )
-      )
-      (project "RC_Charger_MainBoard"
-        (path "/43d535c7-5e30-4b88-a9b0-e712620238f3/e4c08729-18bf-404e-a940-fd38ac8e2c10"
-          (reference "C16") (unit 1)
-        )
-        (path "/43d535c7-5e30-4b88-a9b0-e712620238f3"
-          (reference "C15") (unit 1)
         )
       )
     )
@@ -3239,7 +2872,7 @@
     (property "Reference" "R7" (at 166.37 81.28 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Value" "10.2k" (at 166.37 83.82 0)
+    (property "Value" "3.24k" (at 166.37 83.82 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 165.608 82.55 90)
@@ -3331,7 +2964,7 @@
     (property "Reference" "R7" (at 166.37 109.22 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Value" "11.7k" (at 166.37 111.76 0)
+    (property "Value" "5.9k" (at 166.37 111.76 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 165.608 110.49 90)
@@ -3503,7 +3136,7 @@
     (property "Reference" "R6" (at 166.37 73.66 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Value" "53.6k" (at 166.37 76.2 0)
+    (property "Value" "10k" (at 166.37 76.2 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 165.608 74.93 90)
@@ -3524,49 +3157,6 @@
         )
         (path "/43d535c7-5e30-4b88-a9b0-e712620238f3"
           (reference "R10") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:C") (at 124.46 76.2 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid b88b4647-f9d9-4bd4-919c-3cabff1772a6)
-    (property "Reference" "C25" (at 128.27 74.93 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "47p" (at 128.27 77.47 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 125.4252 80.01 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 124.46 76.2 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid b489c466-6fda-4c28-a0bd-831d2d133ccf))
-    (pin "2" (uuid ee2b6eed-d6a1-4cb5-90a2-618b08e7afae))
-    (instances
-      (project "RC_Charger"
-        (path "/0902a6fd-0525-43c9-a70c-b987859163f6/44385ac6-2dac-4298-a0ef-bab3c9dededd/2996aedb-1a2d-440a-a10b-ea99907b5cdc"
-          (reference "C25") (unit 1)
-        )
-        (path "/0902a6fd-0525-43c9-a70c-b987859163f6/1ee38852-1559-48b6-8a70-6102d2608532/2996aedb-1a2d-440a-a10b-ea99907b5cdc"
-          (reference "C70") (unit 1)
-        )
-        (path "/0902a6fd-0525-43c9-a70c-b987859163f6/53b147f5-33bc-4da8-ba88-64e8a60c7653/2996aedb-1a2d-440a-a10b-ea99907b5cdc"
-          (reference "C120") (unit 1)
-        )
-        (path "/0902a6fd-0525-43c9-a70c-b987859163f6/abac92d4-4db0-4e52-b345-db465b34d49e/2996aedb-1a2d-440a-a10b-ea99907b5cdc"
-          (reference "C152") (unit 1)
-        )
-      )
-      (project "RC_Charger_MainBoard"
-        (path "/43d535c7-5e30-4b88-a9b0-e712620238f3/e4c08729-18bf-404e-a940-fd38ac8e2c10"
-          (reference "C15") (unit 1)
-        )
-        (path "/43d535c7-5e30-4b88-a9b0-e712620238f3"
-          (reference "C16") (unit 1)
         )
       )
     )
@@ -3876,49 +3466,6 @@
     )
   )
 
-  (symbol (lib_id "Device:C") (at 111.76 111.76 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid dfc08fac-7572-4445-8e76-393a6b8b86c4)
-    (property "Reference" "C25" (at 115.57 110.49 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "12n" (at 115.57 113.03 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 112.7252 115.57 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 111.76 111.76 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 84cfc4e7-28c9-4953-8512-93e58b6c1540))
-    (pin "2" (uuid 48fbbdc3-3e91-4e2e-b9a1-1ea617ad5c07))
-    (instances
-      (project "RC_Charger"
-        (path "/0902a6fd-0525-43c9-a70c-b987859163f6/44385ac6-2dac-4298-a0ef-bab3c9dededd/2996aedb-1a2d-440a-a10b-ea99907b5cdc"
-          (reference "C25") (unit 1)
-        )
-        (path "/0902a6fd-0525-43c9-a70c-b987859163f6/1ee38852-1559-48b6-8a70-6102d2608532/2996aedb-1a2d-440a-a10b-ea99907b5cdc"
-          (reference "C70") (unit 1)
-        )
-        (path "/0902a6fd-0525-43c9-a70c-b987859163f6/53b147f5-33bc-4da8-ba88-64e8a60c7653/2996aedb-1a2d-440a-a10b-ea99907b5cdc"
-          (reference "C120") (unit 1)
-        )
-        (path "/0902a6fd-0525-43c9-a70c-b987859163f6/abac92d4-4db0-4e52-b345-db465b34d49e/2996aedb-1a2d-440a-a10b-ea99907b5cdc"
-          (reference "C152") (unit 1)
-        )
-      )
-      (project "RC_Charger_MainBoard"
-        (path "/43d535c7-5e30-4b88-a9b0-e712620238f3/e4c08729-18bf-404e-a940-fd38ac8e2c10"
-          (reference "C16") (unit 1)
-        )
-        (path "/43d535c7-5e30-4b88-a9b0-e712620238f3"
-          (reference "C17") (unit 1)
-        )
-      )
-    )
-  )
-
   (symbol (lib_id "Regulator_Linear:L7805") (at 71.12 179.07 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid fc1c4894-a72a-47bc-ae36-dbe08de98d48)
@@ -4009,10 +3556,6 @@
     (property "Sheetfile" "Buck.kicad_sch" (at 134.62 103.4546 0)
       (effects (font (size 1.27 1.27)) (justify left top))
     )
-    (pin "COMP" input (at 134.62 100.33 180)
-      (effects (font (size 1.27 1.27)) (justify left))
-      (uuid 01715592-8e3a-4198-bccd-acac189c0829)
-    )
     (pin "FB" input (at 147.32 101.6 0)
       (effects (font (size 1.27 1.27)) (justify right))
       (uuid fba99241-8ffb-482d-9b20-bddcd5cc9b81)
@@ -4054,10 +3597,6 @@
     )
     (property "Sheetfile" "Buck.kicad_sch" (at 134.62 75.5146 0)
       (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (pin "COMP" input (at 134.62 72.39 180)
-      (effects (font (size 1.27 1.27)) (justify left))
-      (uuid 04b6ae0f-c211-4a33-89fa-9044922500cc)
     )
     (pin "FB" input (at 147.32 73.66 0)
       (effects (font (size 1.27 1.27)) (justify right))
